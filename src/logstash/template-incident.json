@@ -1,0 +1,28 @@
+{
+  "template" : "singapore-lta-incident-*",
+
+  "settings" : {
+    "index.number_of_shards" : 1,
+    "index.number_of_replicas" : 0,
+    "index.query.default_field" : "description"
+  },
+
+  "mappings" : {
+    "logs" : {
+      "properties": {
+        "incident_id" : { "type" : "integer", "doc_values" : true },
+        "type" : { "type" : "string", "analyzer" : "english",
+          "fields" : {
+            "raw" : { "type" : "string", "index" : "not_analyzed", "doc_values": true }
+          }
+        },
+        "description" : { "type" : "string", "analyzer" : "english",
+          "fields" : {
+            "raw" : { "type" : "string", "index" : "not_analyzed", "doc_values" : true }
+          }
+        },
+        "geo" : { "type" : "geo_point", "geohash" : true, "geohash_precision" : 9, "doc_values" : true }
+      }
+    }
+  }
+}

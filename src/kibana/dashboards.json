@@ -1,0 +1,59 @@
+[
+  {
+    "_id": "Singapore-LTA:-Advisories",
+    "_type": "dashboard",
+    "_source": {
+      "title": "Singapore LTA: Advisories",
+      "hits": 0,
+      "description": "",
+      "panelsJSON": "[{\"col\":1,\"id\":\"Advisories-Heatmap\",\"row\":1,\"size_x\":6,\"size_y\":5,\"type\":\"visualization\",\"panelIndex\":1},{\"col\":1,\"id\":\"Advisories:-Most-Frequent-Messages\",\"row\":6,\"size_x\":6,\"size_y\":5,\"type\":\"visualization\",\"panelIndex\":2},{\"col\":7,\"id\":\"Advisories:-Histogram\",\"row\":3,\"size_x\":6,\"size_y\":8,\"type\":\"visualization\",\"panelIndex\":3},{\"col\":7,\"id\":\"Advisories:-Messages-per-Equipment\",\"row\":11,\"size_x\":6,\"size_y\":4,\"type\":\"visualization\",\"panelIndex\":4},{\"col\":1,\"id\":\"Advisories:-Less-Used-Equipments\",\"row\":11,\"size_x\":6,\"size_y\":4,\"type\":\"visualization\",\"panelIndex\":5},{\"id\":\"Advisories:-Overview\",\"type\":\"visualization\",\"size_x\":6,\"size_y\":2,\"col\":7,\"row\":1,\"panelIndex\":6},{\"id\":\"Singapore-LTA\",\"type\":\"visualization\",\"panelIndex\":7,\"size_x\":12,\"size_y\":2,\"col\":1,\"row\":15}]",
+      "optionsJSON": "{\"darkTheme\":false}",
+      "uiStateJSON": "{}",
+      "version": 1,
+      "timeRestore": true,
+      "timeTo": "2015-09-30T17:25:50.105Z",
+      "timeFrom": "2015-08-23T07:22:34.067Z",
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[{\"query\":{\"query_string\":{\"analyze_wildcard\":true,\"query\":\"*\"}}}]}"
+      }
+    }
+  },
+  {
+    "_id": "Singapore-LTA:-Carparks",
+    "_type": "dashboard",
+    "_source": {
+      "title": "Singapore LTA: Carparks",
+      "hits": 0,
+      "description": "",
+      "panelsJSON": "[{\"col\":1,\"id\":\"Carpark-Lots-Distribution\",\"row\":5,\"size_x\":5,\"size_y\":6,\"type\":\"visualization\",\"panelIndex\":1},{\"col\":3,\"id\":\"Carpark:-Available-Lots-Per-Area\",\"row\":1,\"size_x\":4,\"size_y\":4,\"type\":\"visualization\",\"panelIndex\":2},{\"col\":1,\"id\":\"Total-Number-of-Carparks\",\"row\":1,\"size_x\":2,\"size_y\":4,\"type\":\"visualization\",\"panelIndex\":3},{\"col\":7,\"id\":\"Carpark:-Available-Lots-Table\",\"row\":1,\"size_x\":6,\"size_y\":4,\"type\":\"visualization\",\"panelIndex\":4},{\"id\":\"Carparks:-Available-Lots-Map\",\"type\":\"visualization\",\"size_x\":7,\"size_y\":6,\"col\":6,\"row\":5,\"panelIndex\":5},{\"id\":\"Singapore-LTA\",\"type\":\"visualization\",\"panelIndex\":6,\"size_x\":12,\"size_y\":2,\"col\":1,\"row\":11}]",
+      "optionsJSON": "{\"darkTheme\":false}",
+      "uiStateJSON": "{}",
+      "version": 1,
+      "timeRestore": true,
+      "timeTo": "2015-09-30T17:25:50.105Z",
+      "timeFrom": "2015-08-23T07:22:34.067Z",
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[{\"query\":{\"query_string\":{\"analyze_wildcard\":true,\"query\":\"*\"}}}]}"
+      }
+    }
+  },
+  {
+    "_id": "Singapore-LTA:-Incidents",
+    "_type": "dashboard",
+    "_source": {
+      "title": "Singapore LTA: Incidents",
+      "hits": 0,
+      "description": "",
+      "panelsJSON": "[{\"col\":1,\"id\":\"Incidents-by-Type\",\"panelIndex\":1,\"row\":3,\"size_x\":4,\"size_y\":4,\"type\":\"visualization\"},{\"col\":1,\"id\":\"Incidents-Timeline\",\"panelIndex\":3,\"row\":7,\"size_x\":12,\"size_y\":6,\"type\":\"visualization\"},{\"id\":\"Incidents:-Heatmap\",\"type\":\"visualization\",\"panelIndex\":5,\"size_x\":8,\"size_y\":6,\"col\":5,\"row\":1},{\"id\":\"Total-Number-of-Incidents\",\"type\":\"visualization\",\"panelIndex\":6,\"size_x\":4,\"size_y\":2,\"col\":1,\"row\":1},{\"id\":\"Singapore-LTA\",\"type\":\"visualization\",\"panelIndex\":7,\"size_x\":12,\"size_y\":2,\"col\":1,\"row\":13}]",
+      "optionsJSON": "{\"darkTheme\":false}",
+      "uiStateJSON": "{}",
+      "version": 1,
+      "timeRestore": true,
+      "timeTo": "2015-09-30T17:25:50.105Z",
+      "timeFrom": "2015-08-23T07:22:34.067Z",
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[{\"query\":{\"query_string\":{\"analyze_wildcard\":true,\"query\":\"*\"}}}]}"
+      }
+    }
+  }
+]
