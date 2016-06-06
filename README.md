@@ -8,7 +8,7 @@ This is a demo to visualize some Singapore LTA public datasets using the Elastic
 - Kibana
 - Logstash
 
-Singapore Land Transport Authority provides public APIs to access to real time information like carparks, incidents and advisories among others. This demo covers approximately 40 days of information collected between October and September 2015 and contains 3 indices:
+[Singapore Land Transport Authority](http://lta.gov.sg) provides [public APIs](http://www.mytransport.sg/content/mytransport/home/dataMall.html) to access to real time information like carparks, incidents and advisories among others. This demo covers approximately 40 days of information collected between October and September 2015 and contains 3 indices:
 
 - singapore-lta-carpark: 686K events sampled every 2 minutes 
 - singapore-lta-advisory: 221K events sampled every 5 minutes
