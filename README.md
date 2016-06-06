@@ -14,7 +14,8 @@ This is a demo to visualize some Singapore LTA public datasets using the Elastic
 - singapore-lta-advisory: 221K events sampled every 5 minutes
 - singapore-lta-incidents: 295K events sampled every 5 minutes
 
-![incidents](https://raw.githubusercontent.com/mcascallares/singapore-lta-demo/master/screenshots/advisories.png "Incidents")
+![incidents](https://raw.githubusercontent.com/mcascallares/singapore-lta-demo/master/screenshots/incidents.png "Incidents")
+![advisories](https://raw.githubusercontent.com/mcascallares/singapore-lta-demo/master/screenshots/advisories.png "Advisories")
 
 ## Setup
 
