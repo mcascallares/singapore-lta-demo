@@ -11,18 +11,18 @@
   "mappings" : {
     "logs" : {
       "properties": {
-        "incident_id" : { "type" : "integer", "doc_values" : true },
-        "type" : { "type" : "string", "analyzer" : "english",
+        "incident_id" : { "type" : "integer" },
+        "type" : { "type" : "text", "analyzer" : "english",
           "fields" : {
-            "raw" : { "type" : "string", "index" : "not_analyzed", "doc_values": true }
+            "keyword" : { "type" : "keyword" }
           }
         },
-        "description" : { "type" : "string", "analyzer" : "english",
+        "description" : { "type" : "text", "analyzer" : "english",
           "fields" : {
-            "raw" : { "type" : "string", "index" : "not_analyzed", "doc_values" : true }
+            "keyword" : { "type" : "keyword" }
           }
         },
-        "geo" : { "type" : "geo_point", "geohash" : true, "geohash_precision" : 9, "doc_values" : true }
+        "geo" : { "type" : "geo_point" }
       }
     }
   }

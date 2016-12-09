@@ -1,18 +1,23 @@
 [
   {
-    "_id": "Singapore-LTA:-Advisories",
+    "_id": "Singapore-LTA:-Incidents",
     "_type": "dashboard",
     "_source": {
-      "title": "Singapore LTA: Advisories",
+      "title": "Singapore LTA: Incidents",
       "hits": 0,
       "description": "",
-      "panelsJSON": "[{\"col\":1,\"id\":\"Advisories-Heatmap\",\"row\":1,\"size_x\":6,\"size_y\":5,\"type\":\"visualization\",\"panelIndex\":1},{\"col\":1,\"id\":\"Advisories:-Most-Frequent-Messages\",\"row\":6,\"size_x\":6,\"size_y\":5,\"type\":\"visualization\",\"panelIndex\":2},{\"col\":7,\"id\":\"Advisories:-Histogram\",\"row\":3,\"size_x\":6,\"size_y\":8,\"type\":\"visualization\",\"panelIndex\":3},{\"col\":7,\"id\":\"Advisories:-Messages-per-Equipment\",\"row\":11,\"size_x\":6,\"size_y\":4,\"type\":\"visualization\",\"panelIndex\":4},{\"col\":1,\"id\":\"Advisories:-Less-Used-Equipments\",\"row\":11,\"size_x\":6,\"size_y\":4,\"type\":\"visualization\",\"panelIndex\":5},{\"id\":\"Advisories:-Overview\",\"type\":\"visualization\",\"size_x\":6,\"size_y\":2,\"col\":7,\"row\":1,\"panelIndex\":6},{\"id\":\"Singapore-LTA\",\"type\":\"visualization\",\"panelIndex\":7,\"size_x\":12,\"size_y\":2,\"col\":1,\"row\":15}]",
+      "panelsJSON": "[{\"col\":1,\"id\":\"Incidents-by-Type\",\"panelIndex\":1,\"row\":3,\"size_x\":4,\"size_y\":4,\"type\":\"visualization\"},{\"col\":1,\"id\":\"Incidents-Timeline\",\"panelIndex\":3,\"row\":7,\"size_x\":12,\"size_y\":6,\"type\":\"visualization\"},{\"id\":\"Incidents:-Heatmap\",\"type\":\"visualization\",\"panelIndex\":5,\"size_x\":8,\"size_y\":6,\"col\":5,\"row\":1},{\"id\":\"Total-Number-of-Incidents\",\"type\":\"visualization\",\"panelIndex\":6,\"size_x\":4,\"size_y\":2,\"col\":1,\"row\":1},{\"id\":\"Singapore-LTA\",\"type\":\"visualization\",\"panelIndex\":7,\"size_x\":12,\"size_y\":2,\"col\":1,\"row\":13}]",
       "optionsJSON": "{\"darkTheme\":false}",
-      "uiStateJSON": "{}",
+      "uiStateJSON": "{\"P-5\":{\"mapZoom\":10,\"mapCenter\":[1.2290012026886903,103.84689331054688]}}",
       "version": 1,
       "timeRestore": true,
       "timeTo": "2015-09-30T17:25:50.105Z",
       "timeFrom": "2015-08-23T07:22:34.067Z",
+      "refreshInterval": {
+        "display": "Off",
+        "pause": false,
+        "value": 0
+      },
       "kibanaSavedObjectMeta": {
         "searchSourceJSON": "{\"filter\":[{\"query\":{\"query_string\":{\"analyze_wildcard\":true,\"query\":\"*\"}}}]}"
       }
@@ -25,32 +30,42 @@
       "title": "Singapore LTA: Carparks",
       "hits": 0,
       "description": "",
-      "panelsJSON": "[{\"col\":1,\"id\":\"Carpark-Lots-Distribution\",\"row\":5,\"size_x\":5,\"size_y\":6,\"type\":\"visualization\",\"panelIndex\":1},{\"col\":3,\"id\":\"Carpark:-Available-Lots-Per-Area\",\"row\":1,\"size_x\":4,\"size_y\":4,\"type\":\"visualization\",\"panelIndex\":2},{\"col\":1,\"id\":\"Total-Number-of-Carparks\",\"row\":1,\"size_x\":2,\"size_y\":4,\"type\":\"visualization\",\"panelIndex\":3},{\"col\":7,\"id\":\"Carpark:-Available-Lots-Table\",\"row\":1,\"size_x\":6,\"size_y\":4,\"type\":\"visualization\",\"panelIndex\":4},{\"id\":\"Carparks:-Available-Lots-Map\",\"type\":\"visualization\",\"size_x\":7,\"size_y\":6,\"col\":6,\"row\":5,\"panelIndex\":5},{\"id\":\"Singapore-LTA\",\"type\":\"visualization\",\"panelIndex\":6,\"size_x\":12,\"size_y\":2,\"col\":1,\"row\":11}]",
+      "panelsJSON": "[{\"col\":1,\"id\":\"Carpark-Lots-Distribution\",\"panelIndex\":1,\"row\":5,\"size_x\":5,\"size_y\":6,\"type\":\"visualization\"},{\"col\":1,\"id\":\"Total-Number-of-Carparks\",\"panelIndex\":3,\"row\":1,\"size_x\":2,\"size_y\":4,\"type\":\"visualization\"},{\"col\":7,\"id\":\"Carpark:-Available-Lots-Table\",\"panelIndex\":4,\"row\":1,\"size_x\":6,\"size_y\":4,\"type\":\"visualization\"},{\"col\":6,\"id\":\"Carparks:-Available-Lots-Map\",\"panelIndex\":5,\"row\":5,\"size_x\":7,\"size_y\":6,\"type\":\"visualization\"},{\"col\":1,\"id\":\"Singapore-LTA\",\"panelIndex\":6,\"row\":11,\"size_x\":12,\"size_y\":2,\"type\":\"visualization\"},{\"id\":\"Carparks:-Available-Lots-Per-Area\",\"type\":\"visualization\",\"panelIndex\":7,\"size_x\":4,\"size_y\":4,\"col\":3,\"row\":1}]",
       "optionsJSON": "{\"darkTheme\":false}",
-      "uiStateJSON": "{}",
+      "uiStateJSON": "{\"P-4\":{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}},\"P-5\":{\"mapCenter\":[1.3003949349844803,103.88534545898438],\"mapZoom\":11}}",
       "version": 1,
       "timeRestore": true,
       "timeTo": "2015-09-30T17:25:50.105Z",
       "timeFrom": "2015-08-23T07:22:34.067Z",
+      "refreshInterval": {
+        "display": "Off",
+        "pause": false,
+        "value": 0
+      },
       "kibanaSavedObjectMeta": {
         "searchSourceJSON": "{\"filter\":[{\"query\":{\"query_string\":{\"analyze_wildcard\":true,\"query\":\"*\"}}}]}"
       }
     }
   },
   {
-    "_id": "Singapore-LTA:-Incidents",
+    "_id": "Singapore-LTA:-Advisories",
     "_type": "dashboard",
     "_source": {
-      "title": "Singapore LTA: Incidents",
+      "title": "Singapore LTA: Advisories",
       "hits": 0,
       "description": "",
-      "panelsJSON": "[{\"col\":1,\"id\":\"Incidents-by-Type\",\"panelIndex\":1,\"row\":3,\"size_x\":4,\"size_y\":4,\"type\":\"visualization\"},{\"col\":1,\"id\":\"Incidents-Timeline\",\"panelIndex\":3,\"row\":7,\"size_x\":12,\"size_y\":6,\"type\":\"visualization\"},{\"id\":\"Incidents:-Heatmap\",\"type\":\"visualization\",\"panelIndex\":5,\"size_x\":8,\"size_y\":6,\"col\":5,\"row\":1},{\"id\":\"Total-Number-of-Incidents\",\"type\":\"visualization\",\"panelIndex\":6,\"size_x\":4,\"size_y\":2,\"col\":1,\"row\":1},{\"id\":\"Singapore-LTA\",\"type\":\"visualization\",\"panelIndex\":7,\"size_x\":12,\"size_y\":2,\"col\":1,\"row\":13}]",
+      "panelsJSON": "[{\"col\":1,\"id\":\"Advisories-Heatmap\",\"panelIndex\":1,\"row\":1,\"size_x\":6,\"size_y\":5,\"type\":\"visualization\"},{\"col\":1,\"id\":\"Advisories:-Most-Frequent-Messages\",\"panelIndex\":2,\"row\":6,\"size_x\":6,\"size_y\":5,\"type\":\"visualization\"},{\"col\":7,\"id\":\"Advisories:-Histogram\",\"panelIndex\":3,\"row\":3,\"size_x\":6,\"size_y\":8,\"type\":\"visualization\"},{\"col\":7,\"id\":\"Advisories:-Messages-per-Equipment\",\"panelIndex\":4,\"row\":17,\"size_x\":6,\"size_y\":4,\"type\":\"visualization\"},{\"col\":1,\"id\":\"Advisories:-Less-Used-Equipments\",\"panelIndex\":5,\"row\":17,\"size_x\":6,\"size_y\":4,\"type\":\"visualization\"},{\"col\":7,\"id\":\"Advisories:-Overview\",\"panelIndex\":6,\"row\":1,\"size_x\":6,\"size_y\":2,\"type\":\"visualization\"},{\"col\":1,\"id\":\"Singapore-LTA\",\"panelIndex\":7,\"row\":21,\"size_x\":12,\"size_y\":2,\"type\":\"visualization\"},{\"id\":\"Advisories:-Tags\",\"type\":\"visualization\",\"panelIndex\":8,\"size_x\":12,\"size_y\":6,\"col\":1,\"row\":11}]",
       "optionsJSON": "{\"darkTheme\":false}",
-      "uiStateJSON": "{}",
+      "uiStateJSON": "{\"P-1\":{\"mapCenter\":[1.2997084662268863,103.76106262207031],\"mapZoom\":10},\"P-2\":{\"vis\":{\"params\":{\"sort\":{\"columnIndex\":null,\"direction\":null}}}}}",
       "version": 1,
       "timeRestore": true,
       "timeTo": "2015-09-30T17:25:50.105Z",
       "timeFrom": "2015-08-23T07:22:34.067Z",
+      "refreshInterval": {
+        "display": "Off",
+        "pause": false,
+        "value": 0
+      },
       "kibanaSavedObjectMeta": {
         "searchSourceJSON": "{\"filter\":[{\"query\":{\"query_string\":{\"analyze_wildcard\":true,\"query\":\"*\"}}}]}"
       }

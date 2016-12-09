@@ -21,9 +21,9 @@ This is a demo to visualize some Singapore LTA public datasets using the Elastic
 
 ### Requirements
 
-- Elasticsearch 2.3 or higher
-- Kibana 4.5 or higher
-- Logstash 2.3 or higher
+- Elasticsearch 5.1.1 or higher
+- Kibana 5.1.1 or higher
+- Logstash 5.1.1 or higher
 
 ### Importing datasets using logstash
 
